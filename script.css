@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(255, 255, 126);
+}
+
+.container {
+    background-color: rgb(113, 255, 205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 101px auto;
+    justify-content: center;
+    width: 29rem;
+    border: 3px solid black;
+
+    border-radius: 25px;
+    box-shadow: 16px 16px 40px rgb(1, 78, 73);
+
+
+}
+
+.container #screen {
+    width: 407px;
+    height: 66px;
+    margin: 19px;
+    border-radius: 26px;
+    background-color: rgb(254, 255, 242);
+    color: rgb(125, 125, 25);
+    font-size: 40px;
+    box-shadow: 3px 3px 5px rgb(242, 255, 0);
+    pointer-events: none;
+
+}
+
+.buttons table {
+
+    height: 55px;
+    width: 80px;
+    margin: 21px;
+    border-radius: 22px;
+
+}
+
+
+.buttons table tr td button {
+    height: 64px;
+    width: 81px;
+    margin: 10px;
+    border-radius: 13px;
+    font-size: 43px;
+    background-color: rgb(3, 38, 56);
+    color: white;
+    box-shadow: 3px 3px 10px black;
+}
+
+.buttons {
+    background-color: white;
+    border-radius: 22px;
+    margin-top: 22px;
+
+}
+
+#equal {
+    height: 64px;
+    width: 187px;
+    margin-left: 7px;
+    margin-right: -144px;
+    background-color: rgb(250, 145, 8);
+}
